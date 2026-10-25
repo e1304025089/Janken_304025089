@@ -22,13 +22,13 @@ String getJankenResult(String hand) {
      return "CPU Win!";
    }
 
- return null;
-}
+    return null;
+  }
 
-String desideCpuHand() {
- int cpuHandNum = (int)random(3);
- if (cpuHandNum == 0) return "Gu";
- else if (cpuHandNum == 1) return "Choki";
- else return "Pa";
-}
+  String desideCpuHand() {
+    int cpuHandNum = (int)random(3);
+    if (cpuHandNum == 0) return "Gu";
+    else if (cpuHandNum == 1) return "Choki";
+    else return "Pa";
+  }
 }
